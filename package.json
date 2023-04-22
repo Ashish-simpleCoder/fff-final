@@ -2,9 +2,11 @@
   "author": "Ashish-simpleCoder",
   "private": false,
   "name": "fff-final",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Testing the library deployement",
-  "keywords": ["awesome"],
+  "keywords": [
+    "awesome"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/esm/index.js",
   "typings": "./dist/index.d.ts",
