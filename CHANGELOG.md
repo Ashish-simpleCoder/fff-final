@@ -1,5 +1,11 @@
 # ff-final
 
+## 1.5.2
+
+### Patch Changes
+
+- e328d77: Add new types
+
 ## 1.5.1
 
 ### Patch Changes
