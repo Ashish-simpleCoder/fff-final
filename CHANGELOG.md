@@ -1,5 +1,11 @@
 # ff-final
 
+## 1.5.0
+
+### Minor Changes
+
+- 55296c3: Add homepage
+
 ## 1.4.0
 
 ### Minor Changes
