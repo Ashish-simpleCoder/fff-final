@@ -1,5 +1,11 @@
 # ff-final
 
+## 1.5.3
+
+### Patch Changes
+
+- fa2a1d8: Add comb
+
 ## 1.5.2
 
 ### Patch Changes
