@@ -8,9 +8,9 @@
   "keywords": [
     "awesome"
   ],
-  "main": "./dist/index.js",
-  "module": "./dist/esm/index.js",
-  "typings": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "typings": "dist/index.d.ts",
   "sideEffects": false,
   "files": [
     "dist"
@@ -26,6 +26,28 @@
     "cs": "pnpm changeset"
   },
   "license": "MIT",
+  "typesVersions": {
+    "*": {
+      ".": ["dist/index.d.ts"],
+      "hooks": [
+        "dist/hooks/index.d.ts"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "default": "./dist/esm/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./hooks": {
+      "import": "./dist/esm/hooks/index.js",
+      "default": "./dist/esm/hooks/index.js",
+      "require": "./dist/hooks/index.js",
+      "types": "./dist/hooks/index.d.ts"
+    }
+  },
   "peerDependencies": {
     "react": ">=16"
   },
