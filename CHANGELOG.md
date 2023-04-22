@@ -1,5 +1,11 @@
 # ff-final
 
+## 1.4.0
+
+### Minor Changes
+
+- 16bb36c: Init repo
+
 ## 1.3.0
 
 ### Minor Changes
