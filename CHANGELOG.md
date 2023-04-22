@@ -1,5 +1,11 @@
 # ff-final
 
+## 1.6.0
+
+### Minor Changes
+
+- 35d4c94: Add terser
+
 ## 1.5.3
 
 ### Patch Changes
