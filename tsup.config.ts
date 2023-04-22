@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
-   entry: ['src/index.tsx', "src/hooks/index.tsx"],
+   entry: ['src/index.tsx'],
    splitting: true,
    sourcemap: true,
    clean: true,
@@ -13,7 +13,6 @@ export default defineConfig({
    shims: true,
    treeshake: true,
    jsxFragment: "React.Fragment",
-   legacyOutput: true,
    metafile: true,
    tsconfig: "./tsconfig.json"
 })

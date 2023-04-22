@@ -9,7 +9,7 @@
     "awesome"
   ],
   "main": "dist/index.js",
-  "module": "dist/esm/index.js",
+  "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
   "sideEffects": false,
   "files": [
@@ -19,37 +19,12 @@
     "prepare": "pnpm run build",
     "release": "changeset publish",
     "build": "tsup && pnpm run post-build",
-    "post-build": "node scripts/addTypes.js",
     "lint": "tsc",
     "test": "vitest --coverage",
     "coverage": "vitest run --coverage",
     "cs": "pnpm changeset"
   },
   "license": "MIT",
-  "typesVersions": {
-    "*": {
-      ".": [
-        "dist/index.d.ts"
-      ],
-      "hooks": [
-        "dist/hooks/index.d.ts"
-      ]
-    }
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/esm/index.js",
-      "default": "./dist/esm/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./hooks": {
-      "import": "./dist/esm/hooks/index.js",
-      "default": "./dist/esm/hooks/index.js",
-      "require": "./dist/hooks/index.js",
-      "types": "./dist/hooks/index.d.ts"
-    }
-  },
   "peerDependencies": {
     "react": ">=16"
   },
