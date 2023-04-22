@@ -1,5 +1,11 @@
 # ff-final
 
+## 1.5.1
+
+### Patch Changes
+
+- 43f099b: remove types
+
 ## 1.5.0
 
 ### Minor Changes
