@@ -7,12 +7,13 @@ export default defineConfig({
    clean: true,
    dts: true,
    format: ["cjs", "esm"],
-   minify: true,
+   minify: "terser",
    outDir: "dist",
    target: "es2017",
    shims: true,
    treeshake: true,
    jsxFragment: "React.Fragment",
    metafile: true,
+   minifyWhitespace: true,
    tsconfig: "./tsconfig.json"
 })
